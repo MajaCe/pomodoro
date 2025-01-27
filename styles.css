@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #FFE5E5;
+    background-image: radial-gradient(#fff 10%, transparent 11%),
+                      radial-gradient(#fff 10%, transparent 11%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 8px solid #FFB6C1;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #FF69B4;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 0px #FFB6C1;
+}
+
+.timer {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: #4A90E2;
+    text-shadow: 3px 3px 0px #BCE0FD;
+}
+
+.controls button {
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    background-color: #98FB98;
+    color: #006400;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 0px #2E8B57;
+    transition: all 0.2s;
+}
+
+.controls button:hover {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0px #2E8B57;
+    background-color: #90EE90;
+}
+
+#reset {
+    background-color: #FFB6C1;
+    box-shadow: 0 4px 0px #FF69B4;
+    color: #8B0000;
+}
+
+#reset:hover {
+    background-color: #FFC0CB;
+    box-shadow: 0 2px 0px #FF69B4;
+}
+
+.status {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #FF69B4;
+} 
